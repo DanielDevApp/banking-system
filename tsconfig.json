@@ -20,6 +20,7 @@
     ],
     "paths": {
       "@/*": ["./*"]
+      // "@/*": ["./app/*"]
     }
   },
   "include": [
@@ -29,6 +30,6 @@
     ".next/types/**/*.ts",
     ".next/dev/types/**/*.ts",
     "**/*.mts"
-  ],
+, "app/Account"  ],
   "exclude": ["node_modules"]
 }
